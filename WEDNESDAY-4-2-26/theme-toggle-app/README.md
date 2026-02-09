@@ -1,23 +1,3 @@
-# Personal Finance Tracker Dashboard (Lab 11)
-
-React frontend + Node/Express backend. Dashboard fetches summary data from `/api/dashboard`.
-
-## Run the lab
-
-1. **Start the backend** (in one terminal):
-   ```bash
-   cd backend && npm install && npm start
-   ```
-   Backend runs at `http://localhost:3001` and serves `GET /api/dashboard`.
-
-2. **Start the frontend** (in another terminal):
-   ```bash
-   npm run dev
-   ```
-   Vite proxies `/api` to the backend. Open the URL shown (e.g. `http://localhost:5173`).
-
----
-
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
